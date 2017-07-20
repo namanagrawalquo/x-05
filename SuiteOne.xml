@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SuiteOne">
+
+<!-- If add more test cases In this suite, You need to add them as bellow. -->
+
+<test name="GetTitleofContactPage">
+    <classes>
+        <class name="com.stta.SuiteOne.GetTitleofContactPage" ></class>  
+    </classes>
+</test>
+
+<test name="GetTitleofHomePage">
+    <classes>
+        <class name="com.stta.SuiteOne.GetTitleofHomePage" ></class>  
+    </classes>
+</test>
+
+</suite>

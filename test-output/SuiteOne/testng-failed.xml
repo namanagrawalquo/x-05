@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteOne]">
+  <listeners>
+    <listener class-name="com.stta.utility.ScreenshotUtility"/>
+  </listeners>
+  <test name="GetTitleofContactPage(failed)">
+    <classes>
+      <class name="com.stta.SuiteOne.GetTitleofContactPage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="reporterDataResults"/>
+          <include name="getTitleofContactPage"/>
+          <include name="checkSuiteToRun"/>
+          <include name="checkCaseToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteOne.GetTitleofContactPage -->
+    </classes>
+  </test> <!-- GetTitleofContactPage(failed) -->
+  <test name="GetTitleofHomePage(failed)">
+    <classes>
+      <class name="com.stta.SuiteOne.GetTitleofHomePage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getTitle"/>
+          <include name="checkCaseToRun"/>
+          <include name="reporterDataResults"/>
+          <include name="checkSuiteToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteOne.GetTitleofHomePage -->
+    </classes>
+  </test> <!-- GetTitleofHomePage(failed) -->
+</suite> <!-- Failed suite [SuiteOne] -->
